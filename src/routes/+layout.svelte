@@ -56,7 +56,7 @@
 </script>
 
 <div class="container">
-  <strong class="title-space">OpenCVカスケード分類機作成ツール</strong>
+  <strong class="title-space">OpenCV cascade classfier creation tool</strong>
   <div class="ui compact menu">
     <a class="item {isHomeActive}" href="{base}/">
       Home

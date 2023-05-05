@@ -9,7 +9,7 @@
   function commandCreatesamplesText(): string {
     // sample
     // ./opencv_createsamples -info pos/poslist.txt -vec vec/posvec.vec
-    const cmd: string = "opencv_createsamples -info " + $positiveListPathStore + FILE_NAME.POSITIVE_LIST + " -vec ./" + FILE_NAME.POSITIVE_VECTOR;
+    const cmd: string = "opencv_createsamples -info ./" + FILE_NAME.POSITIVE_LIST + " -vec ./" + FILE_NAME.POSITIVE_VECTOR + " -num " + String(getPositiveCount()) + " -w 24 -h 24";
     return cmd;
   }
 
